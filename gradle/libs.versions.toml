@@ -26,4 +26,4 @@ opencsv = { module = "com.opencsv:opencsv", version.ref = "opencsv" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
-
+maven-publish = { id = "maven-publish" }
