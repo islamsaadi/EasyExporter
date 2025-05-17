@@ -50,9 +50,9 @@ public class CsvExporter {
                 writer.writeNext(row);
 
                 // TEST PROGRESS BAR
-                try {
-                    Thread.sleep(1000);  // 1sec per row
-                } catch (InterruptedException ignored) {}
+//                try {
+//                    Thread.sleep(1000);  // 1sec per row
+//                } catch (InterruptedException ignored) {}
 
                 if (progressListener != null) {
                     progressListener.onProgress(i + 1, total);
