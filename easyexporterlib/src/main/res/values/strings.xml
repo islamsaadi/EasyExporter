@@ -1,0 +1,19 @@
+<resources>
+    <string name="export_button_label">Export</string>
+
+    <!-- Dialog titles -->
+    <string name="dlg_select_format_title">Select export format</string>
+    <string name="format_csv">CSV</string>
+    <string name="format_json">JSON</string>
+    <string name="format_pdf">PDF</string>
+
+    <string name="action_next">Next</string>
+    <string name="dlg_select_fields_title">Select fields to include</string>
+    <string name="err_no_fields">No fields available to select</string>
+    <string name="err_select_at_least_one">Please select at least one field</string>
+
+    <string name="dlg_filename_title">File name for %1$s</string>
+    <string name="hint_filename">Enter file name</string>
+
+    <string name="err_no_listener">No export listener set!</string>
+</resources>

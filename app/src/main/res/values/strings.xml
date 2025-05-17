@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EasyExporter</string>
+    <string name="export_button_label">Export</string>
+    <string name="export_saved_to">Export saved to:\n%1$s</string>
+    <string name="export_error">Export error: %1$s</string>
+    <string name="label_adults_only">Only adults (age ≥ 18)</string>
+
+    <!-- Dialog titles -->
+<!--    <string name="dlg_select_format_title">اختر النوع</string>-->
+<!--    <string name="format_csv">اكسل</string>-->
+<!--    <string name="format_json">جيسون</string>-->
+<!--    <string name="format_pdf">بي دي اف</string>-->
+
+<!--    <string name="action_next">التالي</string>-->
+<!--    <string name="dlg_select_fields_title">اختر الحقول المرادة</string>-->
+<!--    <string name="err_no_fields">لا يوجد حقول للإختيار</string>-->
+<!--    <string name="err_select_at_least_one">الرجاء اختيار حقل واحد على الاقل</string>-->
+
+    <string name="dlg_filename_title">File name for %1$s</string>
+    <string name="hint_filename">Enter file name</string>
+
+    <string name="err_no_listener">No export listener set!</string>
+</resources>
