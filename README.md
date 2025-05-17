@@ -59,14 +59,20 @@ For FULL DEMO, See the App in this repo.
 1. **Include the library module**  
    In your root `settings.gradle.kts`:
    ```kotlin
-   include(":app", ":easyexporterlib")
+    dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url = uri("https://jitpack.io") }
+		}
+	}
    ```
 
 2. **Add dependency**  
    In your `app/build.gradle.kts`:
    ```kotlin
-   dependencies {
-     implementation(project(":easyexporterlib"))
+   dependencies { 
+     implementation("com.github.islamsaadi:EasyExporter:1.0.0")
      // other deps…
    }
    ```
