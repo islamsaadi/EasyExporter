@@ -72,7 +72,7 @@ For FULL DEMO, See the App in this repo.
    In your `app/build.gradle.kts`:
    ```kotlin
    dependencies { 
-     implementation("com.github.islamsaadi:EasyExporter:1.0.0")
+     implementation("com.github.islamsaadi:EasyExporter:1.0.1")
      // other deps…
    }
    ```
